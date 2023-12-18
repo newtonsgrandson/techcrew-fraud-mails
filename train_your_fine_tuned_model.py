@@ -10,7 +10,7 @@ class fit_fine_tuned:
         
         """
         self.api_key = api_key
-        self.client = OpenAI(api_key="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")
+        self.client = OpenAI(api_key=self.api_key)
         
     def fit(self, jsonl_data):
         """
